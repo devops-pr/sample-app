@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Welcome to the world of KUBER!"
+    return "Welcome to the world of KUBER! An uber tool for K8s onboarding."
 
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True, host="0.0.0.0")
